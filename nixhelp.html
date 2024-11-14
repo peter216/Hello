@@ -6,247 +6,247 @@
 <meta http-equiv="Content-Type" content="application/xml+xhtml; charset=UTF-8"/>
 <title>stdin</title>
 </head>
-<body>
+<body style="color:white; background-color:black">
 <pre>
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    | </span><span style="font-weight:bold;">Warning</span> 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    | </span>This program is <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">experimental</span> and its interface is
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    | </span>subject to change.
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    | </span><span style="font-weight:bold;">Warning</span> 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    | </span>This program is <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">experimental</span> and its interface is
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    | </span>subject to change.
 
 <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:red;">Name</span>
 
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nix</span> - a tool for reproducible and declarative
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nix</span> - a tool for reproducible and declarative
     configuration management
 
 <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:red;">Synopsis</span>
 
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nix</span> [<span style="font-style:italic;">option</span>...] <span style="font-style:italic;">subcommand</span>
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nix</span> [<span style="font-style:italic;">option</span>...] <span style="font-style:italic;">subcommand</span>
 
     where <span style="font-style:italic;">subcommand</span> is one of the following:
 
     <span style="font-weight:bold;">Help commands:</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix help</span> - show help about <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nix</span> or a particular
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix help</span> - show help about <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nix</span> or a particular
       subcommand 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix help-stores</span> - show help about store types and their
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix help-stores</span> - show help about store types and their
       settings 
 
     <span style="font-weight:bold;">Main commands:</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix build</span> - build a derivation or fetch a store path 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix develop</span> - run a bash shell that provides the build
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix build</span> - build a derivation or fetch a store path 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix develop</span> - run a bash shell that provides the build
       environment of a derivation 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix flake</span> - manage Nix flakes 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix profile</span> - manage Nix profiles 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix repl</span> - start an interactive environment for
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix flake</span> - manage Nix flakes 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix profile</span> - manage Nix profiles 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix repl</span> - start an interactive environment for
       evaluating Nix expressions 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix run</span> - run a Nix application 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix search</span> - search for packages 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix shell</span> - run a shell in which the specified packages
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix run</span> - run a Nix application 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix search</span> - search for packages 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix shell</span> - run a shell in which the specified packages
       are available 
 
     <span style="font-weight:bold;">Infrequently used commands:</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix bundle</span> - bundle an application so that it works
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix bundle</span> - bundle an application so that it works
       outside of the Nix store 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix copy</span> - copy paths between Nix stores 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix edit</span> - open the Nix expression of a Nix package in
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix copy</span> - copy paths between Nix stores 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix edit</span> - open the Nix expression of a Nix package in
       $EDITOR 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix eval</span> - evaluate a Nix expression 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix fmt</span> - reformat your code in the standard style 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix log</span> - show the build log of the specified packages
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix eval</span> - evaluate a Nix expression 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix fmt</span> - reformat your code in the standard style 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix log</span> - show the build log of the specified packages
       or paths, if available 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix path-info</span> - query information about store paths 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix registry</span> - manage the flake registry 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix why-depends</span> - show why a package has another
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix path-info</span> - query information about store paths 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix registry</span> - manage the flake registry 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix why-depends</span> - show why a package has another
       package in its closure 
 
     <span style="font-weight:bold;">Utility/scripting commands:</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix daemon</span> - daemon to perform store operations on
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix daemon</span> - daemon to perform store operations on
       behalf of non-root clients 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix derivation</span> - Work with derivations, Nix's notion of
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix derivation</span> - Work with derivations, Nix's notion of
       a build plan. 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix hash</span> - compute and convert cryptographic hashes 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix key</span> - generate and convert Nix signing keys 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix nar</span> - create or inspect NAR files 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix print-dev-env</span> - print shell code that can be
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix hash</span> - compute and convert cryptographic hashes 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix key</span> - generate and convert Nix signing keys 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix nar</span> - create or inspect NAR files 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix print-dev-env</span> - print shell code that can be
       sourced by bash to reproduce the build environment of a
       derivation 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix realisation</span> - manipulate a Nix realisation 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix show-config</span> - show the Nix configuration or the
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix realisation</span> - manipulate a Nix realisation 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix show-config</span> - show the Nix configuration or the
       value of a specific setting 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix store</span> - manipulate a Nix store 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix store</span> - manipulate a Nix store 
 
     <span style="font-weight:bold;">Commands for upgrading or troubleshooting your Nix</span>
     <span style="font-weight:bold;">installation:</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix doctor</span> - check your system for potential problems
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix doctor</span> - check your system for potential problems
       and print a PASS or FAIL for each check 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix upgrade-nix</span> - upgrade Nix to the stable version
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix upgrade-nix</span> - upgrade Nix to the stable version
       declared in Nixpkgs 
 
 <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:red;">Examples</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span>Create a new flake:
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span>Create a new flake:
 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># nix flake new hello</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># cd hello</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># nix flake new hello</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># cd hello</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span>Build the flake in the current directory:
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span>Build the flake in the current directory:
 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># nix build</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># ./result/bin/hello</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">Hello, world!</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># nix build</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># ./result/bin/hello</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">Hello, world!</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span>Run the flake in the current directory:
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span>Run the flake in the current directory:
 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># nix run</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">Hello, world!</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># nix run</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">Hello, world!</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span>Start a development shell for hacking on this flake:
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span>Start a development shell for hacking on this flake:
 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># nix develop</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># unpackPhase</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># cd hello-*</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># configurePhase</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># buildPhase</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># ./hello</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">Hello, world!</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># installPhase</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># ../outputs/out/bin/hello</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">Hello, world!</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># nix develop</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># unpackPhase</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># cd hello-*</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># configurePhase</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># buildPhase</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># ./hello</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">Hello, world!</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># installPhase</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># ../outputs/out/bin/hello</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">Hello, world!</span>
 
 <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:red;">Description</span>
 
     Nix is a tool for building software, configurations and
     other artifacts in a reproducible and declarative way.
-    For more information, see the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">Nix homepage</span> or the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">Nix</span>
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">manual</span>.
+    For more information, see the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">Nix homepage</span> or the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">Nix</span>
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">manual</span>.
 
 <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:red;">Installables</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    | </span><span style="font-weight:bold;">Warning</span> 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    | </span>Installables are part of the unstable <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix-command</span>
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    | </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">experimental feature</span>, and subject to change without
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    | </span>notice.
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    | </span><span style="font-weight:bold;">Warning</span> 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    | </span>Installables are part of the unstable <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix-command</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    | </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">experimental feature</span>, and subject to change without
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    | </span>notice.
 
-    Many <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nix</span> subcommands operate on one or more <span style="font-style:italic;">installables</span>.
+    Many <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nix</span> subcommands operate on one or more <span style="font-style:italic;">installables</span>.
     These are command line arguments that represent something
     that can be realised in the Nix store.
 
     The following types of installable are supported by most
     commands:
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">Flake output attribute</span> (experimental) 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">Store path</span> 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">Nix file</span>, optionally qualified by an attribute path 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">Nix expression</span>, optionally qualified by an attribute
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">Flake output attribute</span> (experimental) 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">Store path</span> 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">Nix file</span>, optionally qualified by an attribute path 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">Nix expression</span>, optionally qualified by an attribute
       path 
 
-    For most commands, if no installable is specified, <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">.</span> is
+    For most commands, if no installable is specified, <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">.</span> is
     assumed. That is, Nix will operate on the default flake
     output attribute of the flake in the current directory.
 
-<span style="font-weight:bold;color:teal;">### </span><span style="font-weight:bold;color:teal;">Flake output attribute</span>
+<span style="font-weight:bold;color:aqua;">### </span><span style="font-weight:bold;color:aqua;">Flake output attribute</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    | </span><span style="font-weight:bold;">Warning</span> 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    | </span>Flake output attribute installables depend on both the 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    | </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">flakes</span> and <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix-command</span> experimental features, and
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    | </span>subject to change without notice.
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    | </span><span style="font-weight:bold;">Warning</span> 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    | </span>Flake output attribute installables depend on both the 
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    | </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">flakes</span> and <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix-command</span> experimental features, and
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    | </span>subject to change without notice.
 
-    Example: <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nixpkgs#hello</span>
+    Example: <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nixpkgs#hello</span>
 
-    These have the form <span style="font-style:italic;">flakeref</span>[<span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">#</span><span style="font-style:italic;">attrpath</span>], where <span style="font-style:italic;">flakeref</span>
-    is a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">flake reference</span> and <span style="font-style:italic;">attrpath</span> is an optional
-    attribute path. For more information on flakes, see <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">the </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix</span>
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">flake</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;"> manual</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;"> page</span>. Flake references are most commonly a
-    flake identifier in the flake registry (e.g. <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nixpkgs</span>), or
-    a raw path (e.g. <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">/path/to/my-flake</span> or <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">.</span> or <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">../foo</span>), or a
-    full URL (e.g. <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">github:nixos/nixpkgs</span> or <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">path:.</span>)
+    These have the form <span style="font-style:italic;">flakeref</span>[<span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">#</span><span style="font-style:italic;">attrpath</span>], where <span style="font-style:italic;">flakeref</span>
+    is a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">flake reference</span> and <span style="font-style:italic;">attrpath</span> is an optional
+    attribute path. For more information on flakes, see <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">the </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix</span>
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">flake</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;"> manual</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;"> page</span>. Flake references are most commonly a
+    flake identifier in the flake registry (e.g. <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nixpkgs</span>), or
+    a raw path (e.g. <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">/path/to/my-flake</span> or <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">.</span> or <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">../foo</span>), or a
+    full URL (e.g. <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">github:nixos/nixpkgs</span> or <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">path:.</span>)
 
     When the flake reference is a raw path (a path without
-    any URL scheme), it is interpreted as a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">path:</span> or 
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">git+file:</span> url in the following way:
+    any URL scheme), it is interpreted as a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">path:</span> or 
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">git+file:</span> url in the following way:
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span>If the path is within a Git repository, then the url
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span>If the path is within a Git repository, then the url
       will be of the form 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">git+file://[GIT_REPO_ROOT]?dir=[RELATIVE_FLAKE_DIR_PATH]</span>
-      where <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">GIT_REPO_ROOT</span> is the path to the root of the git
-      repository, and <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">RELATIVE_FLAKE_DIR_PATH</span> is the path
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">git+file://[GIT_REPO_ROOT]?dir=[RELATIVE_FLAKE_DIR_PATH]</span>
+      where <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">GIT_REPO_ROOT</span> is the path to the root of the git
+      repository, and <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">RELATIVE_FLAKE_DIR_PATH</span> is the path
       (relative to the directory root) of the closest parent
-      of the given path that contains a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">flake.nix</span> within the
+      of the given path that contains a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">flake.nix</span> within the
       git repository. If no such directory exists, then Nix
       will error-out.
 
       Note that the search will only include files indexed by
       git. In particular, files which are matched by 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">.gitignore</span> or have never been <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">git add</span>-ed will not be
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">.gitignore</span> or have never been <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">git add</span>-ed will not be
       available in the flake. If this is undesirable, specify
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">path:&lt;directory&gt;</span> explicitly;
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">path:&lt;directory&gt;</span> explicitly;
 
-      For example, if <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">/foo/bar</span> is a git repository with the
+      For example, if <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">/foo/bar</span> is a git repository with the
       following structure:
 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">.</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">└── baz</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">  ├── blah</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">  │   └── file.txt</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">  └── flake.nix</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">.</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">└── baz</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">  ├── blah</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">  │   └── file.txt</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">  └── flake.nix</span>
 
-      Then <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">/foo/bar/baz/blah</span> will resolve to 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">git+file:///foo/bar?dir=baz</span>
+      Then <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">/foo/bar/baz/blah</span> will resolve to 
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">git+file:///foo/bar?dir=baz</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span>If the supplied path is not a git repository, then the
-      url will have the form <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">path:FLAKE_DIR_PATH</span> where 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">FLAKE_DIR_PATH</span> is the closest parent of the supplied
-      path that contains a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">flake.nix</span> file (within the same
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span>If the supplied path is not a git repository, then the
+      url will have the form <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">path:FLAKE_DIR_PATH</span> where 
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">FLAKE_DIR_PATH</span> is the closest parent of the supplied
+      path that contains a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">flake.nix</span> file (within the same
       file-system). If no such directory exists, then Nix
       will error-out.
 
-      For example, if <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">/foo/bar/flake.nix</span> exists, then 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">/foo/bar/baz/</span> will resolve to <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">path:/foo/bar</span>
+      For example, if <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">/foo/bar/flake.nix</span> exists, then 
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">/foo/bar/baz/</span> will resolve to <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">path:/foo/bar</span>
 
     If <span style="font-style:italic;">attrpath</span> is omitted, Nix tries some default values;
-    for most subcommands, the default is <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">packages.</span><span style="font-style:italic;">system</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">.default</span>
-    (e.g. <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">packages.x86_64-linux.default</span>), but some
+    for most subcommands, the default is <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">packages.</span><span style="font-style:italic;">system</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">.default</span>
+    (e.g. <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">packages.x86_64-linux.default</span>), but some
     subcommands have other defaults. If <span style="font-style:italic;">attrpath</span> <span style="font-style:italic;">is</span>
     specified, <span style="font-style:italic;">attrpath</span> is interpreted as relative to one or
-    more prefixes; for most subcommands, these are <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">packages.</span><span style="font-style:italic;">system</span>,
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">legacyPackages.*system*</span> and the empty prefix. Thus, on 
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">x86_64-linux</span> <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nix build nixpkgs#hello</span> will try to build
-    the attributes <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">packages.x86_64-linux.hello</span>, 
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">legacyPackages.x86_64-linux.hello</span> and <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">hello</span>.
+    more prefixes; for most subcommands, these are <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">packages.</span><span style="font-style:italic;">system</span>,
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">legacyPackages.*system*</span> and the empty prefix. Thus, on 
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">x86_64-linux</span> <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nix build nixpkgs#hello</span> will try to build
+    the attributes <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">packages.x86_64-linux.hello</span>, 
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">legacyPackages.x86_64-linux.hello</span> and <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">hello</span>.
 
-<span style="font-weight:bold;color:teal;">### </span><span style="font-weight:bold;color:teal;">Store path</span>
+<span style="font-weight:bold;color:aqua;">### </span><span style="font-weight:bold;color:aqua;">Store path</span>
 
     Example: 
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">/nix/store/v5sv61sszx301i0x6xysaqzla09nksnd-hello-2.10</span>
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">/nix/store/v5sv61sszx301i0x6xysaqzla09nksnd-hello-2.10</span>
 
     These are paths inside the Nix store, or symlinks that
     resolve to a path in the Nix store.
 
-    A <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">store derivation</span> is also addressed by store path.
+    A <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">store derivation</span> is also addressed by store path.
 
     Example: 
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">/nix/store/p7gp6lxdg32h4ka1q398wd9r2zkbbz2v-hello-2.10.drv</span>
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">/nix/store/p7gp6lxdg32h4ka1q398wd9r2zkbbz2v-hello-2.10.drv</span>
 
     If you want to refer to an output path of that store
-    derivation, add the output name preceded by a caret (<span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">^</span>).
+    derivation, add the output name preceded by a caret (<span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">^</span>).
 
     Example: 
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">/nix/store/p7gp6lxdg32h4ka1q398wd9r2zkbbz2v-hello-2.10.drv^out</span>
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">/nix/store/p7gp6lxdg32h4ka1q398wd9r2zkbbz2v-hello-2.10.drv^out</span>
 
     All outputs can be referred to at once with the special
-    syntax <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">^*</span>.
+    syntax <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">^*</span>.
 
     Example: 
-    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">/nix/store/p7gp6lxdg32h4ka1q398wd9r2zkbbz2v-hello-2.10.drv^*</span>
+    <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">/nix/store/p7gp6lxdg32h4ka1q398wd9r2zkbbz2v-hello-2.10.drv^*</span>
 
-<span style="font-weight:bold;color:teal;">### </span><span style="font-weight:bold;color:teal;">Nix file</span>
+<span style="font-weight:bold;color:aqua;">### </span><span style="font-weight:bold;color:aqua;">Nix file</span>
 
-    Example: <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--file /path/to/nixpkgs hello</span>
+    Example: <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--file /path/to/nixpkgs hello</span>
 
-    When the option <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">-f</span> / <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--file</span> <span style="font-style:italic;">path</span> [<span style="font-style:italic;">attrpath</span>...] is given,
+    When the option <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">-f</span> / <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--file</span> <span style="font-style:italic;">path</span> [<span style="font-style:italic;">attrpath</span>...] is given,
     installables are interpreted as the value of the
     expression in the Nix file at <span style="font-style:italic;">path</span>. If attribute paths
     are provided, commands will operate on the corresponding
@@ -254,788 +254,788 @@
     that file, or any selected attribute, must evaluate to a
     derivation.
 
-<span style="font-weight:bold;color:teal;">### </span><span style="font-weight:bold;color:teal;">Nix expression</span>
+<span style="font-weight:bold;color:aqua;">### </span><span style="font-weight:bold;color:aqua;">Nix expression</span>
 
-    Example: <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--expr 'import &lt;nixpkgs&gt; {}' hello</span>
+    Example: <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--expr 'import &lt;nixpkgs&gt; {}' hello</span>
 
-    When the option <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--expr</span> <span style="font-style:italic;">expression</span> [<span style="font-style:italic;">attrpath</span>...] is given,
+    When the option <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--expr</span> <span style="font-style:italic;">expression</span> [<span style="font-style:italic;">attrpath</span>...] is given,
     installables are interpreted as the value of the of the
     Nix expression. If attribute paths are provided, commands
     will operate on the corresponding values accessible at
     these paths. The Nix expression, or any selected
     attribute, must evaluate to a derivation.
 
-    You may need to specify <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--impure</span> if the expression
-    references impure inputs (such as <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">&lt;nixpkgs&gt;</span>).
+    You may need to specify <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--impure</span> if the expression
+    references impure inputs (such as <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">&lt;nixpkgs&gt;</span>).
 
-<span style="font-weight:bold;color:teal;">## </span><span style="font-weight:bold;color:teal;">Derivation output selection</span>
+<span style="font-weight:bold;color:aqua;">## </span><span style="font-weight:bold;color:aqua;">Derivation output selection</span>
 
     Derivations can have multiple outputs, each corresponding
     to a different store path. For instance, a package can
-    have a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">bin</span> output that contains programs, and a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">dev</span>
+    have a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">bin</span> output that contains programs, and a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">dev</span>
     output that provides development artifacts like C/C++
-    header files. The outputs on which <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nix</span> commands operate
+    header files. The outputs on which <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nix</span> commands operate
     are determined as follows:
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span>You can explicitly specify the desired outputs using
-      the syntax <span style="font-style:italic;">installable</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">^</span><span style="font-style:italic;">output1</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">,</span><span style="font-style:italic;">...</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">,</span><span style="font-style:italic;">outputN</span>. For
-      example, you can obtain the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">dev</span> and <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">static</span> outputs of
-      the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">glibc</span> package:
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span>You can explicitly specify the desired outputs using
+      the syntax <span style="font-style:italic;">installable</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">^</span><span style="font-style:italic;">output1</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">,</span><span style="font-style:italic;">...</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">,</span><span style="font-style:italic;">outputN</span>. For
+      example, you can obtain the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">dev</span> and <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">static</span> outputs of
+      the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">glibc</span> package:
 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># nix build 'nixpkgs#glibc^dev,static'</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># ls ./result-dev/include/ ./result-static/lib/</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">…</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># nix build 'nixpkgs#glibc^dev,static'</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># ls ./result-dev/include/ ./result-static/lib/</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">…</span>
 
       and likewise, using a store path to a &quot;drv&quot; file to
       specify the derivation:
 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># nix build '/nix/store/gzaflydcr6sb3567hap9q6srzx8ggdgg-glibc-2.33-78.drv^dev,static'</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">…</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># nix build '/nix/store/gzaflydcr6sb3567hap9q6srzx8ggdgg-glibc-2.33-78.drv^dev,static'</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">…</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span>You can also specify that <span style="font-style:italic;">all</span> outputs should be used
-      using the syntax <span style="font-style:italic;">installable</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">^*</span>. For example, the
-      following shows the size of all outputs of the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">glibc</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span>You can also specify that <span style="font-style:italic;">all</span> outputs should be used
+      using the syntax <span style="font-style:italic;">installable</span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">^*</span>. For example, the
+      following shows the size of all outputs of the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">glibc</span>
       package in the binary cache:
 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># nix path-info --closure-size --eval-store auto --store https://cache.nixos.org 'nixpkgs#glibc^*'</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">/nix/store/g02b1lpbddhymmcjb923kf0l7s9nww58-glibc-2.33-123                 33208200</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">/nix/store/851dp95qqiisjifi639r0zzg5l465ny4-glibc-2.33-123-bin             36142896</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">/nix/store/kdgs3q6r7xdff1p7a9hnjr43xw2404z7-glibc-2.33-123-debug          155787312</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">/nix/store/n4xa8h6pbmqmwnq0mmsz08l38abb06zc-glibc-2.33-123-static          42488328</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">/nix/store/q6580lr01jpcsqs4r5arlh4ki2c1m9rv-glibc-2.33-123-dev             44200560</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># nix path-info --closure-size --eval-store auto --store https://cache.nixos.org 'nixpkgs#glibc^*'</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">/nix/store/g02b1lpbddhymmcjb923kf0l7s9nww58-glibc-2.33-123                 33208200</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">/nix/store/851dp95qqiisjifi639r0zzg5l465ny4-glibc-2.33-123-bin             36142896</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">/nix/store/kdgs3q6r7xdff1p7a9hnjr43xw2404z7-glibc-2.33-123-debug          155787312</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">/nix/store/n4xa8h6pbmqmwnq0mmsz08l38abb06zc-glibc-2.33-123-static          42488328</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">/nix/store/q6580lr01jpcsqs4r5arlh4ki2c1m9rv-glibc-2.33-123-dev             44200560</span>
 
       and likewise, using a store path to a &quot;drv&quot; file to
       specify the derivation:
 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># nix path-info --closure-size '/nix/store/gzaflydcr6sb3567hap9q6srzx8ggdgg-glibc-2.33-78.drv^*'</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">…</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># nix path-info --closure-size '/nix/store/gzaflydcr6sb3567hap9q6srzx8ggdgg-glibc-2.33-78.drv^*'</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">…</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span>If you didn't specify the desired outputs, but the
-      derivation has an attribute <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">meta.outputsToInstall</span>, Nix
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span>If you didn't specify the desired outputs, but the
+      derivation has an attribute <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">meta.outputsToInstall</span>, Nix
       will use those outputs. For example, since the package 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nixpkgs#libxml2</span> has this attribute:
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nixpkgs#libxml2</span> has this attribute:
 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;"># nix eval 'nixpkgs#libxml2.meta.outputsToInstall'</span>
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">    | </span><span style="font-weight:bold;">[ &quot;bin&quot; &quot;man&quot; ]</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;"># nix eval 'nixpkgs#libxml2.meta.outputsToInstall'</span>
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">    | </span><span style="font-weight:bold;">[ &quot;bin&quot; &quot;man&quot; ]</span>
 
-      a command like <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nix shell nixpkgs#libxml2</span> will provide
+      a command like <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nix shell nixpkgs#libxml2</span> will provide
       only those two outputs by default.
 
-      Note that a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">store derivation</span> doesn't have any
-      attributes like <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">meta</span>, and thus this case doesn't apply
+      Note that a <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">store derivation</span> doesn't have any
+      attributes like <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">meta</span>, and thus this case doesn't apply
       to it.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span>Otherwise, Nix will use all outputs of the derivation.
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span>Otherwise, Nix will use all outputs of the derivation.
 
 <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:red;">Nix stores</span>
 
-    Most <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nix</span> subcommands operate on a <span style="font-style:italic;">Nix store</span>. These are
-    documented in <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:olive;">nix help-stores</span>.
+    Most <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nix</span> subcommands operate on a <span style="font-style:italic;">Nix store</span>. These are
+    documented in <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:yellow;">nix help-stores</span>.
 
 <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:red;">Options</span>
 
     <span style="font-weight:bold;">Logging-related options:</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--debug</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--debug</span>
 
       Set the logging verbosity level to 'debug'.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--log-format</span> <span style="font-style:italic;">format</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--log-format</span> <span style="font-style:italic;">format</span>
 
-      Set the format of log output; one of <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">raw</span>, 
-      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">internal-json</span>, <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">bar</span> or <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">bar-with-logs</span>.
+      Set the format of log output; one of <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">raw</span>, 
+      <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">internal-json</span>, <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">bar</span> or <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">bar-with-logs</span>.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--print-build-logs</span> / <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">-L</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--print-build-logs</span> / <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">-L</span>
 
       Print full build logs on standard error.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--quiet</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--quiet</span>
 
       Decrease the logging verbosity level.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--verbose</span> / <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">-v</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--verbose</span> / <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">-v</span>
 
       Increase the logging verbosity level.
 
     <span style="font-weight:bold;">Miscellaneous global options:</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--help</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--help</span>
 
       Show usage information.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--offline</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--offline</span>
 
       Disable substituters and consider all previously
       downloaded files up-to-date.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--option</span> <span style="font-style:italic;">name</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--option</span> <span style="font-style:italic;">name</span> <span style="font-style:italic;">value</span>
 
       Set the Nix configuration setting <span style="font-style:italic;">name</span> to <span style="font-style:italic;">value</span>
-      (overriding <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nix.conf</span>).
+      (overriding <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nix.conf</span>).
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--refresh</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--refresh</span>
 
       Consider all previously downloaded files out-of-date.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--version</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--version</span>
 
       Show version information.
 
     <span style="font-weight:bold;">Options to override configuration settings:</span>
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--accept-flake-config</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--accept-flake-config</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">accept-flake-config</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">accept-flake-config</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--access-tokens</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--access-tokens</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">access-tokens</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">access-tokens</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--allow-dirty</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--allow-dirty</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allow-dirty</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allow-dirty</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--allow-import-from-derivation</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--allow-import-from-derivation</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allow-import-from-derivation</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allow-import-from-derivation</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--allow-new-privileges</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--allow-new-privileges</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allow-new-privileges</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allow-new-privileges</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--allow-symlinked-store</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--allow-symlinked-store</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allow-symlinked-store</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allow-symlinked-store</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--allow-unsafe-native-code-during-evaluation</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--allow-unsafe-native-code-during-evaluation</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allow-unsafe-native-code-during-evaluation</span>
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allow-unsafe-native-code-during-evaluation</span>
       setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--allowed-impure-host-deps</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--allowed-impure-host-deps</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allowed-impure-host-deps</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allowed-impure-host-deps</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--allowed-uris</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--allowed-uris</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allowed-uris</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allowed-uris</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--allowed-users</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--allowed-users</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allowed-users</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allowed-users</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--auto-allocate-uids</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--auto-allocate-uids</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">auto-allocate-uids</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">auto-allocate-uids</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--auto-optimise-store</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--auto-optimise-store</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">auto-optimise-store</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">auto-optimise-store</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--bash-prompt</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--bash-prompt</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">bash-prompt</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">bash-prompt</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--bash-prompt-prefix</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--bash-prompt-prefix</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">bash-prompt-prefix</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">bash-prompt-prefix</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--bash-prompt-suffix</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--bash-prompt-suffix</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">bash-prompt-suffix</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">bash-prompt-suffix</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--build-hook</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--build-hook</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">build-hook</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">build-hook</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--build-poll-interval</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--build-poll-interval</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">build-poll-interval</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">build-poll-interval</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--build-users-group</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--build-users-group</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">build-users-group</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">build-users-group</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--builders</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--builders</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">builders</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">builders</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--builders-use-substitutes</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--builders-use-substitutes</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">builders-use-substitutes</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">builders-use-substitutes</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--commit-lockfile-summary</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--commit-lockfile-summary</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">commit-lockfile-summary</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">commit-lockfile-summary</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--compress-build-log</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--compress-build-log</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">compress-build-log</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">compress-build-log</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--connect-timeout</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--connect-timeout</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">connect-timeout</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">connect-timeout</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--cores</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--cores</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">cores</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">cores</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--diff-hook</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--diff-hook</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">diff-hook</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">diff-hook</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--download-attempts</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--download-attempts</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">download-attempts</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">download-attempts</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--download-speed</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--download-speed</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">download-speed</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">download-speed</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--eval-cache</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--eval-cache</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">eval-cache</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">eval-cache</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--experimental-features</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--experimental-features</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">experimental-features</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">experimental-features</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-access-tokens</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-access-tokens</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">access-tokens</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">access-tokens</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-allowed-impure-host-deps</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-allowed-impure-host-deps</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allowed-impure-host-deps</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allowed-impure-host-deps</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-allowed-uris</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-allowed-uris</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allowed-uris</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allowed-uris</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-allowed-users</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-allowed-users</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allowed-users</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allowed-users</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-build-hook</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-build-hook</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">build-hook</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">build-hook</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-experimental-features</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-experimental-features</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">experimental-features</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">experimental-features</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-extra-platforms</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-extra-platforms</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">extra-platforms</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">extra-platforms</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-hashed-mirrors</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-hashed-mirrors</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">hashed-mirrors</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">hashed-mirrors</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-ignored-acls</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-ignored-acls</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">ignored-acls</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">ignored-acls</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-nix-path</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-nix-path</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nix-path</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nix-path</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-platforms</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-platforms</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">extra-platforms</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">extra-platforms</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-plugin-files</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-plugin-files</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">plugin-files</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">plugin-files</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-sandbox-paths</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-sandbox-paths</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">sandbox-paths</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">sandbox-paths</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-secret-key-files</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-secret-key-files</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">secret-key-files</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">secret-key-files</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-substituters</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-substituters</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">substituters</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">substituters</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-system-features</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-system-features</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">system-features</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">system-features</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-trusted-public-keys</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-trusted-public-keys</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">trusted-public-keys</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">trusted-public-keys</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-trusted-substituters</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-trusted-substituters</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">trusted-substituters</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">trusted-substituters</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--extra-trusted-users</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--extra-trusted-users</span> <span style="font-style:italic;">value</span>
 
-      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">trusted-users</span> setting.
+      Append to the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">trusted-users</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--fallback</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--fallback</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">fallback</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">fallback</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--filter-syscalls</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--filter-syscalls</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">filter-syscalls</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">filter-syscalls</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--flake-registry</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--flake-registry</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">flake-registry</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">flake-registry</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--fsync-metadata</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--fsync-metadata</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">fsync-metadata</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">fsync-metadata</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--gc-reserved-space</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--gc-reserved-space</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">gc-reserved-space</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">gc-reserved-space</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--hashed-mirrors</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--hashed-mirrors</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">hashed-mirrors</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">hashed-mirrors</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--http-connections</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--http-connections</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">http-connections</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">http-connections</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--http2</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--http2</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">http2</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">http2</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--id-count</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--id-count</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">id-count</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">id-count</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--ignore-try</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--ignore-try</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">ignore-try</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">ignore-try</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--ignored-acls</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--ignored-acls</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">ignored-acls</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">ignored-acls</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--impersonate-linux-26</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--impersonate-linux-26</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">impersonate-linux-26</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">impersonate-linux-26</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--keep-build-log</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--keep-build-log</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-build-log</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-build-log</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--keep-derivations</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--keep-derivations</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-derivations</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-derivations</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--keep-env-derivations</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--keep-env-derivations</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-env-derivations</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-env-derivations</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--keep-failed</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--keep-failed</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-failed</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-failed</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--keep-going</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--keep-going</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-going</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-going</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--keep-outputs</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--keep-outputs</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-outputs</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-outputs</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--log-lines</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--log-lines</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">log-lines</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">log-lines</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--max-build-log-size</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--max-build-log-size</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">max-build-log-size</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">max-build-log-size</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--max-free</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--max-free</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">max-free</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">max-free</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--max-jobs</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--max-jobs</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">max-jobs</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">max-jobs</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--max-silent-time</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--max-silent-time</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">max-silent-time</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">max-silent-time</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--max-substitution-jobs</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--max-substitution-jobs</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">max-substitution-jobs</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">max-substitution-jobs</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--min-free</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--min-free</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">min-free</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">min-free</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--min-free-check-interval</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--min-free-check-interval</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">min-free-check-interval</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">min-free-check-interval</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--nar-buffer-size</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--nar-buffer-size</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nar-buffer-size</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nar-buffer-size</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--narinfo-cache-negative-ttl</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--narinfo-cache-negative-ttl</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">narinfo-cache-negative-ttl</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">narinfo-cache-negative-ttl</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--narinfo-cache-positive-ttl</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--narinfo-cache-positive-ttl</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">narinfo-cache-positive-ttl</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">narinfo-cache-positive-ttl</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--netrc-file</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--netrc-file</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">netrc-file</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">netrc-file</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--nix-path</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--nix-path</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">nix-path</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">nix-path</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-accept-flake-config</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-accept-flake-config</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">accept-flake-config</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">accept-flake-config</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-allow-dirty</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-allow-dirty</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allow-dirty</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allow-dirty</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-allow-import-from-derivation</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-allow-import-from-derivation</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allow-import-from-derivation</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allow-import-from-derivation</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-allow-new-privileges</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-allow-new-privileges</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allow-new-privileges</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allow-new-privileges</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-allow-symlinked-store</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-allow-symlinked-store</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allow-symlinked-store</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allow-symlinked-store</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-allow-unsafe-native-code-during-evaluation</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-allow-unsafe-native-code-during-evaluation</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">allow-unsafe-native-code-during-evaluation</span>
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">allow-unsafe-native-code-during-evaluation</span>
       setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-auto-allocate-uids</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-auto-allocate-uids</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">auto-allocate-uids</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">auto-allocate-uids</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-auto-optimise-store</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-auto-optimise-store</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">auto-optimise-store</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">auto-optimise-store</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-builders-use-substitutes</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-builders-use-substitutes</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">builders-use-substitutes</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">builders-use-substitutes</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-compress-build-log</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-compress-build-log</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">compress-build-log</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">compress-build-log</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-eval-cache</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-eval-cache</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">eval-cache</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">eval-cache</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-fallback</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-fallback</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">fallback</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">fallback</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-filter-syscalls</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-filter-syscalls</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">filter-syscalls</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">filter-syscalls</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-fsync-metadata</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-fsync-metadata</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">fsync-metadata</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">fsync-metadata</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-http2</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-http2</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">http2</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">http2</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-ignore-try</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-ignore-try</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">ignore-try</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">ignore-try</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-impersonate-linux-26</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-impersonate-linux-26</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">impersonate-linux-26</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">impersonate-linux-26</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-keep-build-log</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-keep-build-log</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-build-log</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-build-log</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-keep-derivations</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-keep-derivations</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-derivations</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-derivations</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-keep-env-derivations</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-keep-env-derivations</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-env-derivations</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-env-derivations</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-keep-failed</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-keep-failed</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-failed</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-failed</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-keep-going</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-keep-going</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-going</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-going</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-keep-outputs</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-keep-outputs</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">keep-outputs</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">keep-outputs</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-preallocate-contents</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-preallocate-contents</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">preallocate-contents</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">preallocate-contents</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-print-missing</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-print-missing</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">print-missing</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">print-missing</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-pure-eval</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-pure-eval</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">pure-eval</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">pure-eval</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-require-drop-supplementary-groups</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-require-drop-supplementary-groups</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">require-drop-supplementary-groups</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">require-drop-supplementary-groups</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-require-sigs</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-require-sigs</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">require-sigs</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">require-sigs</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-restrict-eval</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-restrict-eval</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">restrict-eval</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">restrict-eval</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-run-diff-hook</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-run-diff-hook</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">run-diff-hook</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">run-diff-hook</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-sandbox</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-sandbox</span>
 
       Disable sandboxing.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-sandbox-fallback</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-sandbox-fallback</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">sandbox-fallback</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">sandbox-fallback</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-show-trace</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-show-trace</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">show-trace</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">show-trace</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-substitute</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-substitute</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">substitute</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">substitute</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-sync-before-registering</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-sync-before-registering</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">sync-before-registering</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">sync-before-registering</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-trace-function-calls</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-trace-function-calls</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">trace-function-calls</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">trace-function-calls</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-trace-verbose</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-trace-verbose</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">trace-verbose</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">trace-verbose</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-use-case-hack</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-use-case-hack</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">use-case-hack</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">use-case-hack</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-use-cgroups</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-use-cgroups</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">use-cgroups</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">use-cgroups</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-use-registries</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-use-registries</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">use-registries</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">use-registries</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-use-sqlite-wal</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-use-sqlite-wal</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">use-sqlite-wal</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">use-sqlite-wal</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-use-xdg-base-directories</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-use-xdg-base-directories</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">use-xdg-base-directories</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">use-xdg-base-directories</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--no-warn-dirty</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--no-warn-dirty</span>
 
-      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">warn-dirty</span> setting.
+      Disable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">warn-dirty</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--plugin-files</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--plugin-files</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">plugin-files</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">plugin-files</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--post-build-hook</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--post-build-hook</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">post-build-hook</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">post-build-hook</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--pre-build-hook</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--pre-build-hook</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">pre-build-hook</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">pre-build-hook</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--preallocate-contents</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--preallocate-contents</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">preallocate-contents</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">preallocate-contents</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--print-missing</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--print-missing</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">print-missing</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">print-missing</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--pure-eval</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--pure-eval</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">pure-eval</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">pure-eval</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--relaxed-sandbox</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--relaxed-sandbox</span>
 
       Enable sandboxing, but allow builds to disable it.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--require-drop-supplementary-groups</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--require-drop-supplementary-groups</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">require-drop-supplementary-groups</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">require-drop-supplementary-groups</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--require-sigs</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--require-sigs</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">require-sigs</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">require-sigs</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--restrict-eval</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--restrict-eval</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">restrict-eval</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">restrict-eval</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--run-diff-hook</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--run-diff-hook</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">run-diff-hook</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">run-diff-hook</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--sandbox</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--sandbox</span>
 
       Enable sandboxing.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--sandbox-build-dir</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--sandbox-build-dir</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">sandbox-build-dir</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">sandbox-build-dir</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--sandbox-dev-shm-size</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--sandbox-dev-shm-size</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">sandbox-dev-shm-size</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">sandbox-dev-shm-size</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--sandbox-fallback</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--sandbox-fallback</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">sandbox-fallback</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">sandbox-fallback</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--sandbox-paths</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--sandbox-paths</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">sandbox-paths</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">sandbox-paths</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--secret-key-files</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--secret-key-files</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">secret-key-files</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">secret-key-files</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--show-trace</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--show-trace</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">show-trace</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">show-trace</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--ssl-cert-file</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--ssl-cert-file</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">ssl-cert-file</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">ssl-cert-file</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--stalled-download-timeout</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--stalled-download-timeout</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">stalled-download-timeout</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">stalled-download-timeout</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--start-id</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--start-id</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">start-id</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">start-id</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--store</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--store</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">store</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">store</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--substitute</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--substitute</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">substitute</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">substitute</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--substituters</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--substituters</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">substituters</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">substituters</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--sync-before-registering</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--sync-before-registering</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">sync-before-registering</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">sync-before-registering</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--system</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--system</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">system</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">system</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--system-features</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--system-features</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">system-features</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">system-features</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--tarball-ttl</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--tarball-ttl</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">tarball-ttl</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">tarball-ttl</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--timeout</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--timeout</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">timeout</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">timeout</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--trace-function-calls</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--trace-function-calls</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">trace-function-calls</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">trace-function-calls</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--trace-verbose</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--trace-verbose</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">trace-verbose</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">trace-verbose</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--trusted-public-keys</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--trusted-public-keys</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">trusted-public-keys</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">trusted-public-keys</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--trusted-substituters</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--trusted-substituters</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">trusted-substituters</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">trusted-substituters</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--trusted-users</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--trusted-users</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">trusted-users</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">trusted-users</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--use-case-hack</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--use-case-hack</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">use-case-hack</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">use-case-hack</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--use-cgroups</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--use-cgroups</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">use-cgroups</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">use-cgroups</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--use-registries</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--use-registries</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">use-registries</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">use-registries</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--use-sqlite-wal</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--use-sqlite-wal</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">use-sqlite-wal</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">use-sqlite-wal</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--use-xdg-base-directories</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--use-xdg-base-directories</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">use-xdg-base-directories</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">use-xdg-base-directories</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--user-agent-suffix</span> <span style="font-style:italic;">value</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--user-agent-suffix</span> <span style="font-style:italic;">value</span>
 
-      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">user-agent-suffix</span> setting.
+      Set the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">user-agent-suffix</span> setting.
 
-<span style="filter: contrast(70%) brightness(190%);color:olive;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">--warn-dirty</span>
+<span style="filter: contrast(70%) brightness(190%);color:yellow;">    · </span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">--warn-dirty</span>
 
-      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:blue;">warn-dirty</span> setting.
+      Enable the <span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:#3333FF;">warn-dirty</span> setting.
 
 </pre>
 </body>
