@@ -41,32 +41,32 @@ def diff_configs(config1, config2):
     return diff_result
 
 
-def include_hierarchy_and_siblings(diff_result):
+def include_hierarchy(diff_result):
     """
-    Ensure all parents and siblings of changed lines are included in the output.
+    Include all parent and sibling lines of changed sections.
     """
-    filtered_result = []
-    context_stack = []  # Stack to maintain the hierarchy
+    result_with_context = []
+    context_stack = []  # Stack to track the hierarchy of parents
 
     for symbol, (indent_level, line) in diff_result:
         # Remove irrelevant levels from the stack
         while context_stack and context_stack[-1][0] >= indent_level:
             context_stack.pop()
 
-        # Always include the current line if it has changes
         if symbol != " ":
-            # Add all parents in the stack to the output
-            for parent_level, parent_line in context_stack:
-                if (parent_level, parent_line) not in [entry[1] for entry in filtered_result]:
-                    filtered_result.append((" ", (parent_level, parent_line)))
+            # Include all siblings and parents of this change
+            if context_stack:
+                parent_level, parent_line = context_stack[-1]
+                for sibling_symbol, sibling in diff_result:
+                    sibling_level, sibling_line = sibling
+                    if sibling_level == parent_level and sibling_line not in [r[1] for r in result_with_context]:
+                        result_with_context.append((sibling_symbol, sibling))
+            result_with_context.append((symbol, (indent_level, line)))
 
-            # Add the current line
-            filtered_result.append((symbol, (indent_level, line)))
-
-        # Track this line in the context stack
+        # Add the current line to the context stack for future hierarchy tracking
         context_stack.append((indent_level, line))
 
-    return filtered_result
+    return result_with_context
 
 
 def format_diff(diff_result):
@@ -93,18 +93,22 @@ def main(config1_path, config2_path):
     raw_diff = diff_configs(parsed_config1, parsed_config2)
 
     # Include hierarchy and siblings for changed sections
-    filtered_diff = include_hierarchy_and_siblings(raw_diff)
+    diff_with_context = include_hierarchy(raw_diff)
 
     # Format the diff for display
-    diff_output = format_diff(filtered_diff)
+    diff_output = format_diff(diff_with_context)
 
     # Print the diff
     print(diff_output)
-    with open("diff.txt", "w") as f:
-        f.write(diff_output)
 
 
 if __name__ == "__main__":
+    # Example usage: python diff_configs.py config1.txt config2.txt
+#    import sys
+#   if len(sys.argv) != 3:
+#        print("Usage: python diff_configs.py <config1_path> <config2_path>")
+#        sys.exit(1)
+#
     r1 = "router1.cfg"
     r2 = "router2.cfg"
     main(r1, r2)

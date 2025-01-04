@@ -1,0 +1,22 @@
+Name               Description                                                                                                                                    Version
+----------------   --------------------------------------------------------------------------------------------------------------------------------------------   -------
+bash               Bash for Python                                                                                                                                0.6    
+bash-menu-2        Bash Menu Builder                                                                                                                              1.0.0  
+bash-plus                                                                                                                                                         0.6    
+bash-powerprompt   Powerful dynamic bash prompt inspired by Vim Powerline                                                                                         0.1.0  
+bash.py            An inline Bash script runner, for Python.                                                                                                      0.4.2  
+bash_quote         Browse quotes on bash.org from the comfort of your shell.                                                                                      1.0.1  
+bash-runner        run bash commands with rich printing support retries and threading                                                                             0.0.1  
+bash-timeout       A command (and also bash function) to terminate another command after specified duration                                                       1.1.0  
+bash-toolbelt      UNKNOWN                                                                                                                                        0.0.2  
+bash-completion    Python interface for bash completion                                                                                                           0.2.8  
+bash_concurrent    Wrapper around the bash-concurrent bash library                                                                                                1.0.0  
+bash_kernel        A bash kernel for Jupyter                                                                                                                      0.9.3  
+bash-workbench     Dataset manager for more reproducible analysis with shell scripts                                                                              0.0.15 
+bennie-bash        Personal Bash Shell                                                                                                                            0.1.0  
+co-bash                                                                                                                                                           0.0.1  
+colcon-bash        Extension for colcon to provide Bash scripts.                                                                                                  0.5.0  
+git-bash           Stub that prevents name clash with https://github.com/conda-forge/git-bash-feedstock For Git Bash see https://github.com/kiwi0fruit/git-bash   0.2    
+jprops2bash        Convert Java properties file to bash env var script                                                                                            0.0.2  
+calysto-bash       A Jupyter kernel for Bash.                                                                                                                     0.2.2  
+dagster-bash       Package for Dagster bash solids.                                                                                                               0.7.16 

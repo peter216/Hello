@@ -1,0 +1,15 @@
+Value Required LocalPort (.{9})
+# Value TheRest (.*)
+Value Required ChassisId (.{18})
+Value Required PortId (.{18})
+Value Required PortDescr (.{9})
+Value Required SysName (.{18})
+
+
+Start
+  ^\s*LLDP Remote Devices Information\s* -> Header
+
+Header
+  ^.*LocalPort.*ChassisId.*PortId.*PortDescr.*SysName.*$$
+  ^[-+\s]+$$
+  ^  \s*$LocalPort\s\|\s$ChassisId\s$PortId\s$PortDescr\s$SysName$$ -> Record

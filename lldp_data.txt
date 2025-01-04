@@ -1,0 +1,38 @@
+LLDP Remote Devices Information
+
+  LocalPort | ChassisId          PortId             PortDescr SysName
+  --------- + ------------------ ------------------ --------- ------------------
+  A3        | 9c2dcd-348afd      9c 2d cd 34 8a fd
+  A4        | 745d22-3f9baf      74 5d 22 3f 9b af
+  A7        | 745d22-584a68      t]"XJh
+  A8        | 745d22-5847d4      74 5d 22 58 47 d4
+  A10       | CTDCADT506123      74 5d 22 58 49 f8
+  A14       | 745d22-584a57      t]"XJW
+  A23       | a852d4-bf6d00      1/1/27             CL-LAN... CTDCAS052
+  B1        | 9c2dcd-1f9a06      9c 2d cd 1f 9a 06
+  B7        | CTDCADT506132      t]"XHf
+  B8        | 002324-af55f9      00 23 24 af 55 f9
+  B17       | 745d22-5849f6      74 5d 22 58 49 f6
+  B18       | 002324-99e059      00 23 24 99 e0 59
+  C9        | e86a64-e4f067      e8 6a 64 e4 f0 67
+  C14       | 6c4b90-510995      6c 4b 90 51 09 95
+  C21       | d06726-1c6aa0      24                 24        CTDCAS061
+  C22       | e86a64-e4ee17      e8 6a 64 e4 ee 17
+  D1        | 8c1645-bf7424      8c 16 45 bf 74 24
+  D3        | 6c0b84-e192fc      6c 0b 84 e1 92 fc
+  D9        | 88a4c2-4dbdf5      88 a4 c2 4d bd f5
+  D11       | 6c4b90-545540      6c 4b 90 54 55 40
+  D13       | 6c4b90-5108d4      6c 4b 90 51 08 d4
+  D14       | 745d22-584ebc      74 5d 22 58 4e bc
+  D15       | 002324-ebfe76      00 23 24 eb fe 76
+  D17       | 6c4b90-545549      6c 4b 90 54 55 49
+  D18       | 6c2408-fdc03f      6c 24 08 fd c0 3f
+  D20       | 9c2dcd-1f7d6c      9c 2d cd 1f 7d 6c
+  D21       | 6c4b90-5454b9      6c 4b 90 54 54 b9
+  D22       | 002324-d9afc6      00 23 24 d9 af c6
+  E1        | 8c1645-bf8270      8c 16 45 bf 82 70
+  E7        | 002324-dac268      00 23 24 da c2 68
+  E12       | 0050b6-ab35ff      00 50 b6 ab 35 ff
+  E13       | 88a4c2-641d23      88 a4 c2 64 1d 23
+  E15       | 6c4b90-510993      6c 4b 90 51 09 93
+  E16       | f8ce72-f901bf      f8 ce 72 f9 01 bf

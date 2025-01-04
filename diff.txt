@@ -1,0 +1,19 @@
+ interface Ethernet1
+-    mtu 1500
++    mtu 9000
+ vlan 10
+-    name Management
++    name Management VLAN
++ 
++vlan 20
++    name Data VLAN
++    ip address 10.0.1.1/24
+ router bgp 65001
+     neighbor 192.168.2.2 remote-as 65003
+-        description Router2
++        description Router2 - Updated
+ router ospf 1
+-    network 192.168.2.0/24 area 0
++    network 192.168.3.0/24 area 1
++    area 1
++        stub
