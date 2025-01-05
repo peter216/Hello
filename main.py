@@ -50,7 +50,7 @@ def include_hierarchy_and_siblings(diff_result):
 
     for symbol, (indent_level, line) in diff_result:
         # Remove irrelevant levels from the stack
-        while context_stack and context_stack[-1][0] >= indent_level:
+        while context_stack and context_stack[-1][0] > indent_level:
             context_stack.pop()
 
         # Always include the current line if it has changes
@@ -100,11 +100,13 @@ def main(config1_path, config2_path):
 
     # Print the diff
     print(diff_output)
-    with open("diff.txt", "w") as f:
-        f.write(diff_output)
 
 
 if __name__ == "__main__":
+
+    #r1 = "config1.txt"
+    #r2 = "config2.txt"
     r1 = "router1.cfg"
     r2 = "router2.cfg"
+
     main(r1, r2)
